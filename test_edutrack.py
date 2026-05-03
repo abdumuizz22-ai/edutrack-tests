@@ -1,5 +1,6 @@
 import unittest
 import time
+time.sleep(10)
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -7,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
-BASE_URL = "http://13.63.176.163:3000"
+BASE_URL = "http://13.63.49.27:3000"
 
 def get_driver():
     chrome_options = Options()
